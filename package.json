@@ -1,0 +1,24 @@
+{
+  "name": "api-movie-user",
+  "version": "1.0.0",
+  "description": "An api from register user",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Layssaa/api-movie-user.git"
+  },
+  "author": "Layssa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Layssaa/api-movie-user/issues"
+  },
+  "homepage": "https://github.com/Layssaa/api-movie-user#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
