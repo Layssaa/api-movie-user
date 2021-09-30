@@ -33,7 +33,7 @@ app.post("/login", async (req, res) => {
     readTheFile("./data/users.json")
         .then(result => {
             user = result.filter(profile => {
-                return profile.email === userLogin.email && profile.password === userLogin.password
+                return profile.email == userLogin.email && profile.password === userLogin.password
             })
             console.log(result);
 
@@ -45,33 +45,51 @@ app.post("/login", async (req, res) => {
         .catch(erro => res.status(500).json({ message: erro.message }))
 });
 
-// app.post("/login/signup", async (req, res) => {
-//     const { userSignUp } = req.body;
-//     let user;
-//     readTheFile("./data/users.json")
-//         .then(result => {
-//             user = result.filter(profile => {
-//                 return profile.email === userSignUp.email
-//             })
-//             if (user.length !== 0) {
-//                 return res.send([]);
-//             }
-//             return result;
-//         })
-//         .then(result => {
-//             let newList = result.push(userSignUp);
-//             fs.writeFile("./data/users.json", `${JSON.stringify(newList)}`, () => {
-//                 console.log(newList);
-//             });
-//             return res.send("Cadastro feito com sucesso.");
-//         })
-//         .catch(erro => res.status(500).json({ message: erro.message }))
-// });
+app.post("/login/signup", async (req, res) => {
+    const { userSignUp } = req.body;
+    console.log("--------------------tentativa de cadastro--------------------");
+    console.log(userSignUp);
+
+    let user;
+    readTheFile("./data/users.json")
+        .then(result => {
+            console.log("--------------------result--------------------");
+            console.log(result);
+
+            user = result.filter(profile => {
+                return profile.email === userSignUp.email
+            });
+
+            console.log("--------------------user comprimento array--------------------");
+            console.log(user.length);
+            if (user.length !== 0) {
+                console.log("o e-mail já consta");
+                return res.send([]);
+            }
+            return result;
+        })
+        .then(result => {
+            let data = result;
+            console.log("--------------------NOVO result--------------------");
+            console.log(result);
+
+            let newList = data.concat(userSignUp);
+            fs.writeFile("./data/users.json", `${JSON.stringify(newList)}`, () => {
+                console.log(newList);
+            });
+
+            console.log("--------------------NOVA LISTA--------------------");
+            console.log(newList);
+
+            return res.send("Cadastro feito com sucesso.");
+        })
+        .catch(erro => res.status(500).json({ message: erro.message }))
+});
 
 
 
 // -----------------------------------------------------------------------------------------------------//
-app.listen(process.env.PORT || PORT, function (err) {
+app.listen(PORT, function (err) {
     if (err) console.log(err);
     console.log("Server listening on PORT", PORT);
 });
