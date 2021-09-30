@@ -50,8 +50,6 @@ app.post("/login", async (req, res) => {
 // ------------------------------------ REGISTER - USER ------------------------------------
 app.post("/login/signup", async (req, res) => {
     const { userSignUp } = req.body;
-    console.log("--------------------tentativa de cadastro--------------------");
-    console.log(userSignUp);
 
     let user;
     readTheFile("./data/users.json")
