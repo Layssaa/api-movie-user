@@ -31,7 +31,7 @@ function readTheFile(_filePath) {
 app.post("/login", async (req, res) => {
     const { userLogin } = req.body;
 
-    let user;
+    let user_login;
     let data_USER = {
         user: 0,
         cart: [],
