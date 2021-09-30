@@ -26,6 +26,8 @@ function readTheFile(_filePath) {
     })
 }
 
+// ------------------------------------ LOGIN - USER ------------------------------------
+
 app.post("/login", async (req, res) => {
     const { userLogin } = req.body;
     let user;
@@ -45,6 +47,7 @@ app.post("/login", async (req, res) => {
         .catch(erro => res.status(500).json({ message: erro.message }))
 });
 
+// ------------------------------------ REGISTER - USER ------------------------------------
 app.post("/login/signup", async (req, res) => {
     const { userSignUp } = req.body;
     console.log("--------------------tentativa de cadastro--------------------");
