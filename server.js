@@ -30,18 +30,57 @@ function readTheFile(_filePath) {
 
 app.post("/login", async (req, res) => {
     const { userLogin } = req.body;
-    let user;
 
+    let user_login;
+    let data_USER = {
+        user: 0,
+        cart: [{}],
+        wishlist: [{}],
+        history: [{}]
+    }
     readTheFile("./data/users.json")
         .then(result => {
             user = result.filter(profile => {
                 return profile.email == userLogin.email && profile.password === userLogin.password
             })
 
+            data_USER.user = user[0].id
+
             if (user.length == 0) {
-                return res.send([]);
+                return reject([]);
             }
-            return res.send(user);
+            return result
+        })
+        .then(result => {
+            fs.readFile("./data/cart.json", 'utf-8', (err, data) => {
+                if (err) throw err
+                data_USER.cart = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
+                console.log("CART")
+                console.log(data_USER)
+                return data_USER
+            })
+        })
+        .then(result => {
+            fs.readFile("./data/wishlist.json", 'utf-8', (err, data) => {
+                if (err) throw err
+                data_USER.wishlist = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
+                console.log("WISHLIST")
+                console.log(data_USER)
+                return data_USER
+            })
+        })
+        .then(result => {
+            fs.readFile("./data/history.json", 'utf-8', (err, data) => {
+                if (err) throw err
+                data_USER.history = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
+                console.log("HISTORY")
+                console.log(data_USER)
+                return data_USER
+            })
+            return data_USER
+        })
+        .then(result => {
+            res.send(result)
         })
         .catch(erro => res.status(500).json({ message: erro.message }))
 });
@@ -69,7 +108,7 @@ app.post("/login/signup", async (req, res) => {
             let newList = data.concat(userSignUp);
 
             fs.writeFile("./data/users.json", `${JSON.stringify(newList)}`, () => {
-                console.log("Cadastro feito com sucesso.")
+
             });
 
             return res.send("Cadastro feito com sucesso.");
@@ -83,7 +122,7 @@ app.post("/cart", async (req, res) => {
     const { user } = req.body;
 
     const data_USER = [{
-        id: user.data[0].id,
+        id: user,
         data: CartMovie,
         delete: false
     }]
@@ -92,7 +131,6 @@ app.post("/cart", async (req, res) => {
         .then(result => result.concat(data_USER))
         .then(result => {
             fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
-                console.log("Carrinho atualizado")
             });
             return res.send("Carrinho atualizado");
         })
@@ -105,9 +143,9 @@ app.post("/cart/remove", async (req, res) => {
     const { user } = req.body;
 
     const data_USER = {
-        id: user.data[0].id,
+        id: user,
         data: CartMovie,
-        delete:true
+        delete: true
     }
 
     readTheFile("./data/cart.json")
@@ -119,7 +157,7 @@ app.post("/cart/remove", async (req, res) => {
         })
         .then(result => {
             fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
-                console.log("Carrinho atualizado")
+
             });
             return res.send("Carrinho atualizado");
         })
@@ -130,9 +168,9 @@ app.post("/cart/remove", async (req, res) => {
 app.post("/wishList", async (req, res) => {
     const { wishList } = req.body;
     const { user } = req.body;
-    
+
     const data_USER = {
-        id: user.data[0].id,
+        id: user,
         data: wishList,
         delete: false
     }
@@ -141,7 +179,6 @@ app.post("/wishList", async (req, res) => {
         .then(result => result.concat(data_USER))
         .then(result => {
             fs.writeFile("./data/wishlist.json", `${JSON.stringify(result)}`, () => {
-                console.log("wishList atualizada")
 
             });
             return res.send("wishList atualizada");
@@ -156,7 +193,7 @@ app.post("/wishList/remove", async (req, res) => {
     const { user } = req.body;
 
     const data_USER = {
-        id: user.data[0].id,
+        id: user,
         data: wishList,
         delete: true
     }
@@ -170,7 +207,6 @@ app.post("/wishList/remove", async (req, res) => {
         })
         .then(result => {
             fs.writeFile("./data/wishlist.json", `${JSON.stringify(result)}`, () => {
-                console.log("wishList atualizada")
 
             });
             return res.send("wishlist atualizado");
@@ -185,7 +221,7 @@ app.post("/history", async (req, res) => {
     const { user } = req.body;
 
     const data_USER = {
-        id: user.data[0].id,
+        id: user,
         data: moviesOnHistory,
         delete: false
     }
@@ -194,7 +230,6 @@ app.post("/history", async (req, res) => {
         .then(result => result.concat(data_USER))
         .then(result => {
             fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {
-                console.log("adicionado ao histórico")
             });
             return res.send("history atualizada");
         })
@@ -207,7 +242,7 @@ app.post("/history/remove", async (req, res) => {
     const { user } = req.body;
 
     const data_USER = {
-        id: user.data[0].id,
+        id: user,
         data: moviesOnHistory,
         delete: true
     }
@@ -221,8 +256,6 @@ app.post("/history/remove", async (req, res) => {
         })
         .then(result => {
             fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {
-                console.log("history atualizada")
-
             });
             return res.send("history atualizado");
         })
