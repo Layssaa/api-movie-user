@@ -53,15 +53,10 @@ app.post("/login/signup", async (req, res) => {
     let user;
     readTheFile("./data/users.json")
         .then(result => {
-            console.log("--------------------result--------------------");
-            console.log(result);
-
             user = result.filter(profile => {
                 return profile.email === userSignUp.email
             });
 
-            console.log("--------------------user comprimento array--------------------");
-            console.log(user.length);
             if (user.length !== 0) {
                 console.log("o e-mail já consta");
                 return res.send([]);
@@ -70,16 +65,10 @@ app.post("/login/signup", async (req, res) => {
         })
         .then(result => {
             let data = result;
-            console.log("--------------------NOVO result--------------------");
-            console.log(result);
 
             let newList = data.concat(userSignUp);
             fs.writeFile("./data/users.json", `${JSON.stringify(newList)}`, () => {
-                console.log(newList);
             });
-
-            console.log("--------------------NOVA LISTA--------------------");
-            console.log(newList);
 
             return res.send("Cadastro feito com sucesso.");
         })
