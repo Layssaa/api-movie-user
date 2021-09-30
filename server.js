@@ -82,11 +82,14 @@ app.post("/cart", async (req, res) => {
     const { CartMovie } = req.body;
     const { user } = req.body;
 
-    CartMovie.delete = false;
-    CartMovie.id = user.data[0].id;
+    const data_USER = [{
+        id: user.data[0].id,
+        data: CartMovie,
+        delete: false
+    }]
 
     readTheFile("./data/cart.json")
-        .then(result => result.concat(CartMovie))
+        .then(result => result.concat(data_USER))
         .then(result => {
             fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
                 console.log("Carrinho atualizado")
@@ -101,15 +104,18 @@ app.post("/cart/remove", async (req, res) => {
     const { CartMovie } = req.body;
     const { user } = req.body;
 
-    CartMovie.delete = true;
-    CartMovie.id = user.data[0].id;
+    const data_USER = {
+        id: user.data[0].id,
+        data: CartMovie,
+        delete:true
+    }
 
     readTheFile("./data/cart.json")
         .then(result => {
             const data = result.filter((element) => {
-                return element.id !== CartMovie.id
+                return element.id !== data_USER.id
             })
-            return data.concat(CartMovie)
+            return data.concat(data_USER)
         })
         .then(result => {
             fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
@@ -124,12 +130,15 @@ app.post("/cart/remove", async (req, res) => {
 app.post("/wishList", async (req, res) => {
     const { wishList } = req.body;
     const { user } = req.body;
-
-    wishList.id = user.data[0].id;
-    wishList.delete = false;
+    
+    const data_USER = {
+        id: user.data[0].id,
+        data: wishList,
+        delete: false
+    }
 
     readTheFile("./data/wishlist.json")
-        .then(result => result.concat(wishList))
+        .then(result => result.concat(data_USER))
         .then(result => {
             fs.writeFile("./data/wishlist.json", `${JSON.stringify(result)}`, () => {
                 console.log("wishList atualizada")
@@ -146,15 +155,18 @@ app.post("/wishList/remove", async (req, res) => {
     const { wishList } = req.body;
     const { user } = req.body;
 
-    wishList.id = user.data[0].id;
-    wishList.delete = true;
+    const data_USER = {
+        id: user.data[0].id,
+        data: wishList,
+        delete: true
+    }
 
     readTheFile("./data/wishlist.json")
         .then(result => {
             const data = result.filter((element) => {
-                return element.id !== wishList.id
+                return element.id !== data_USER.id
             })
-            return data.concat(wishList)
+            return data.concat(data_USER)
         })
         .then(result => {
             fs.writeFile("./data/wishlist.json", `${JSON.stringify(result)}`, () => {
@@ -172,13 +184,14 @@ app.post("/history", async (req, res) => {
     const { moviesOnHistory } = req.body;
     const { user } = req.body;
 
-    moviesOnHistory.id = user.data[0].id;
-    moviesOnHistory.delete = false;
-
-    console.log(moviesOnHistory)
+    const data_USER = {
+        id: user.data[0].id,
+        data: moviesOnHistory,
+        delete: false
+    }
 
     readTheFile("./data/history.json")
-        .then(result => result.concat(moviesOnHistory))
+        .then(result => result.concat(data_USER))
         .then(result => {
             fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {
                 console.log("adicionado ao histórico")
@@ -193,17 +206,18 @@ app.post("/history/remove", async (req, res) => {
     const { moviesOnHistory } = req.body;
     const { user } = req.body;
 
-    moviesOnHistory.id = user.data[0].id;
-    moviesOnHistory.delete = true;
-
-    console.log(moviesOnHistory)
+    const data_USER = {
+        id: user.data[0].id,
+        data: moviesOnHistory,
+        delete: true
+    }
 
     readTheFile("./data/history.json")
         .then(result => {
             const data = result.filter((element) => {
-                return element.id !== wishList.id
+                return element.id !== data_USER.id
             })
-            return data.concat(moviesOnHistory)
+            return data.concat(data_USER)
         })
         .then(result => {
             fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {
