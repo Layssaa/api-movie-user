@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const bodyParser = require("body-parser");
 const path = require('path');
-const { RSA_NO_PADDING } = require('constants');
+const { RSA_NO_PADDING, DH_CHECK_P_NOT_SAFE_PRIME } = require('constants');
 
 const PORT = 8000;
 
@@ -37,7 +37,6 @@ app.post("/login", async (req, res) => {
             user = result.filter(profile => {
                 return profile.email == userLogin.email && profile.password === userLogin.password
             })
-            console.log(result);
 
             if (user.length == 0) {
                 return res.send([]);
@@ -50,6 +49,7 @@ app.post("/login", async (req, res) => {
 // ------------------------------------ REGISTER - USER ------------------------------------
 app.post("/login/signup", async (req, res) => {
     const { userSignUp } = req.body;
+    userSignUp.delete = false;
 
     let user;
     readTheFile("./data/users.json")
@@ -59,19 +59,158 @@ app.post("/login/signup", async (req, res) => {
             });
 
             if (user.length !== 0) {
-                console.log("o e-mail já consta");
                 return res.send([]);
             }
             return result;
         })
         .then(result => {
             let data = result;
-
+            userSignUp.id = data.length;
             let newList = data.concat(userSignUp);
+
             fs.writeFile("./data/users.json", `${JSON.stringify(newList)}`, () => {
+                console.log("Cadastro feito com sucesso.")
             });
 
             return res.send("Cadastro feito com sucesso.");
+        })
+        .catch(erro => res.status(500).json({ message: erro.message }))
+});
+
+// ------------------------------------ CART - ADD ------------------------------------
+app.post("/cart", async (req, res) => {
+    const { CartMovie } = req.body;
+    const { user } = req.body;
+
+    CartMovie.delete = false;
+    CartMovie.id = user.data[0].id;
+
+    readTheFile("./data/cart.json")
+        .then(result => result.concat(CartMovie))
+        .then(result => {
+            fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
+                console.log("Carrinho atualizado")
+            });
+            return res.send("Carrinho atualizado");
+        })
+        .catch(erro => res.status(500).json({ message: erro.message }))
+});
+
+// ------------------------------------ CART - DELETE  ------------------------------------
+app.post("/cart/remove", async (req, res) => {
+    const { CartMovie } = req.body;
+    const { user } = req.body;
+
+    CartMovie.delete = true;
+    CartMovie.id = user.data[0].id;
+
+    readTheFile("./data/cart.json")
+        .then(result => {
+            const data = result.filter((element) => {
+                return element.id !== CartMovie.id
+            })
+            return data.concat(CartMovie)
+        })
+        .then(result => {
+            fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
+                console.log("Carrinho atualizado")
+            });
+            return res.send("Carrinho atualizado");
+        })
+        .catch(erro => res.status(500).json({ message: erro.message }))
+});
+
+// ------------------------------------ WISHLIST - ADD  ------------------------------------
+app.post("/wishList", async (req, res) => {
+    const { wishList } = req.body;
+    const { user } = req.body;
+
+    wishList.id = user.data[0].id;
+    wishList.delete = false;
+
+    readTheFile("./data/wishlist.json")
+        .then(result => result.concat(wishList))
+        .then(result => {
+            fs.writeFile("./data/wishlist.json", `${JSON.stringify(result)}`, () => {
+                console.log("wishList atualizada")
+
+            });
+            return res.send("wishList atualizada");
+        })
+        .catch(erro => res.status(500).json({ message: erro.message }))
+});
+
+
+// ------------------------------------ WISHLIST - REMOVE  ------------------------------------
+app.post("/wishList/remove", async (req, res) => {
+    const { wishList } = req.body;
+    const { user } = req.body;
+
+    wishList.id = user.data[0].id;
+    wishList.delete = true;
+
+    readTheFile("./data/wishlist.json")
+        .then(result => {
+            const data = result.filter((element) => {
+                return element.id !== wishList.id
+            })
+            return data.concat(wishList)
+        })
+        .then(result => {
+            fs.writeFile("./data/wishlist.json", `${JSON.stringify(result)}`, () => {
+                console.log("wishList atualizada")
+
+            });
+            return res.send("wishlist atualizado");
+        })
+        .catch(erro => res.status(500).json({ message: erro.message }))
+});
+
+
+// ------------------------------------ HISTORY - ADD  ------------------------------------
+app.post("/history", async (req, res) => {
+    const { moviesOnHistory } = req.body;
+    const { user } = req.body;
+
+    moviesOnHistory.id = user.data[0].id;
+    moviesOnHistory.delete = false;
+
+    console.log(moviesOnHistory)
+
+    readTheFile("./data/history.json")
+        .then(result => result.concat(moviesOnHistory))
+        .then(result => {
+            fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {
+                console.log("adicionado ao histórico")
+            });
+            return res.send("history atualizada");
+        })
+        .catch(erro => res.status(500).json({ message: erro.message }))
+});
+
+// ------------------------------------ HISTORY - REMOVE  ------------------------------------
+app.post("/history/remove", async (req, res) => {
+    const { moviesOnHistory } = req.body;
+    const { user } = req.body;
+
+    moviesOnHistory.id = user.data[0].id;
+    moviesOnHistory.delete = true;
+
+    console.log(moviesOnHistory)
+
+    readTheFile("./data/history.json")
+        .then(result => {
+            const data = result.filter((element) => {
+                return element.id !== wishList.id
+            })
+            return data.concat(moviesOnHistory)
+        })
+        .then(result => {
+            fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {
+                console.log("history atualizada")
+
+            });
+            return res.send("history atualizado");
         })
         .catch(erro => res.status(500).json({ message: erro.message }))
 });
