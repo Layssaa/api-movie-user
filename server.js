@@ -34,9 +34,9 @@ app.post("/login", async (req, res) => {
     let user_login;
     let data_USER = {
         user: 0,
-        cart: [{}],
-        wishlist: [{}],
-        history: [{}]
+        cart: [],
+        wishlist: [],
+        history: []
     }
     readTheFile("./data/users.json")
         .then(result => {
@@ -52,35 +52,65 @@ app.post("/login", async (req, res) => {
             return result
         })
         .then(result => {
-            fs.readFile("./data/cart.json", 'utf-8', (err, data) => {
-                if (err) throw err
-                data_USER.cart = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
-                console.log("CART")
-                console.log(data_USER)
-                return data_USER
-            })
-        })
-        .then(result => {
-            fs.readFile("./data/wishlist.json", 'utf-8', (err, data) => {
-                if (err) throw err
-                data_USER.wishlist = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
-                console.log("WISHLIST")
-                console.log(data_USER)
-                return data_USER
-            })
-        })
-        .then(result => {
-            fs.readFile("./data/history.json", 'utf-8', (err, data) => {
-                if (err) throw err
-                data_USER.history = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
-                console.log("HISTORY")
-                console.log(data_USER)
-                return data_USER
-            })
+            readTheFile("./data/cart.json")
+                .then(result => {
+                    data = result.filter((element) => element.delete === false && (element.id === user[0].id));
+
+                    data_USER = {
+                        ...data_USER,
+                        cart: data
+                    }
+                });
             return data_USER
+            // fs.readFile("./data/cart.json", 'utf-8', (err, data) => {
+            //     if (err) throw err
+            //     data_USER.cart = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
+            //     console.log("CART")
+            //     console.log(data_USER)
+            //     return data_USER
+            // })
         })
         .then(result => {
-            res.send(result)
+            readTheFile("./data/wishlist.json")
+                .then(result => {
+                    data = result.filter((element) => element.delete === false && (element.id === user[0].id));
+
+                    data_USER = {
+                        ...data_USER,
+                        wishlist: data
+                    }
+                });
+            return data_USER
+            // fs.readFile("./data/wishlist.json", 'utf-8', (err, data) => {
+            //     if (err) throw err
+            //     data_USER.wishlist = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
+            //     console.log("WISHLIST")
+            //     console.log(data_USER)
+            //     return data_USER
+            // })
+        })
+        .then(result => {
+            readTheFile("./data/history.json")
+                .then(result => {
+                    data = result.filter((element) => element.delete === false && (element.id === user[0].id));
+                    data_USER = {
+                        ...data_USER,
+                        history: data
+                    }
+                });
+            return data_USER
+            // fs.readFile("./data/history.json", 'utf-8', (err, data) => {
+            //     if (err) throw err
+            //     data_USER.history = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
+            //     console.log("HISTORY")
+            //     console.log(data_USER)
+            //     return data_USER
+            // })
+            // return data_USER
+        })
+        .then(result => {
+            console.log(data_USER)
+            res.send(data_USER)
         })
         .catch(erro => res.status(500).json({ message: erro.message }))
 });
