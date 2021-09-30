@@ -1,7 +1,7 @@
 const fs = require('fs');
 const express = require('express');
 const app = express();
-const cors = require('cors')
+const cors = require('cors');
 const bodyParser = require("body-parser");
 const path = require('path');
 const { RSA_NO_PADDING } = require('constants');
