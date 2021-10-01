@@ -31,13 +31,13 @@ function readTheFile(_filePath) {
 app.post("/login", async (req, res) => {
     const { userLogin } = req.body;
 
-    let user_login;
     let data_USER = {
         user: 0,
         cart: [],
         wishlist: [],
         history: []
     }
+
     readTheFile("./data/users.json")
         .then(result => {
             user = result.filter(profile => {
@@ -51,68 +51,26 @@ app.post("/login", async (req, res) => {
             }
             return result
         })
-        .then(result => {
-            readTheFile("./data/cart.json")
-                .then(result => {
-                    data = result.filter((element) => element.delete === false && (element.id === user[0].id));
+        .catch(res => res.send(null));
 
-                    data_USER = {
-                        ...data_USER,
-                        cart: data
-                    }
-                });
-            return data_USER
-            // fs.readFile("./data/cart.json", 'utf-8', (err, data) => {
-            //     if (err) throw err
-            //     data_USER.cart = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
-            //     console.log("CART")
-            //     console.log(data_USER)
-            //     return data_USER
-            // })
-        })
-        .then(result => {
-            readTheFile("./data/wishlist.json")
-                .then(result => {
-                    data = result.filter((element) => element.delete === false && (element.id === user[0].id));
+    const CART = await readTheFile("./data/cart.json")
+        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)));
 
-                    data_USER = {
-                        ...data_USER,
-                        wishlist: data
-                    }
-                });
-            return data_USER
-            // fs.readFile("./data/wishlist.json", 'utf-8', (err, data) => {
-            //     if (err) throw err
-            //     data_USER.wishlist = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
-            //     console.log("WISHLIST")
-            //     console.log(data_USER)
-            //     return data_USER
-            // })
-        })
-        .then(result => {
-            readTheFile("./data/history.json")
-                .then(result => {
-                    data = result.filter((element) => element.delete === false && (element.id === user[0].id));
-                    data_USER = {
-                        ...data_USER,
-                        history: data
-                    }
-                });
-            return data_USER
-            // fs.readFile("./data/history.json", 'utf-8', (err, data) => {
-            //     if (err) throw err
-            //     data_USER.history = JSON.parse(data).filter((element) => element.delete === false && (element.id === user[0].id))
-            //     console.log("HISTORY")
-            //     console.log(data_USER)
-            //     return data_USER
-            // })
-            // return data_USER
-        })
-        .then(result => {
-            console.log(data_USER)
-            res.send(data_USER)
-        })
-        .catch(erro => res.status(500).json({ message: erro.message }))
+    const WISHLIST = await readTheFile("./data/wishlist.json")
+        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)));
+
+    const HISTORY = await readTheFile("./data/history.json")
+        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)));
+
+    data_USER = {
+        ...data_USER,
+        cart: CART,
+        wishlist: WISHLIST,
+        history: HISTORY
+    }
+
+    console.log(data_USER);
+    res.send(data_USER)
 });
 
 // ------------------------------------ REGISTER - USER ------------------------------------
