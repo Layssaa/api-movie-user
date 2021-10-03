@@ -31,6 +31,8 @@ function readTheFile(_filePath) {
 app.post("/login", async (req, res) => {
     const { userLogin } = req.body;
 
+    console.log("------------RECEBIDO---------------")
+    console.log(userLogin);
     let data_USER = {
         user: 0,
         cart: [],
@@ -44,11 +46,16 @@ app.post("/login", async (req, res) => {
                 return profile.email == userLogin.email && profile.password === userLogin.password
             })
 
-            data_USER.user = user[0].id
-
             if (user.length == 0) {
                 return reject([]);
             }
+
+            data_USER.user = user[0].id;
+
+            console.log("----------FIND USER------------")
+            console.log(data_USER);
+
+          
             return result
         })
         .catch(res => res.send(null));
@@ -69,7 +76,9 @@ app.post("/login", async (req, res) => {
         history: HISTORY
     }
 
-    console.log(data_USER);
+    console.log("------------ENVIADO---------------")
+    console.log(data_USER)
+
     res.send(data_USER)
 });
 
@@ -96,9 +105,7 @@ app.post("/login/signup", async (req, res) => {
             let newList = data.concat(userSignUp);
 
             fs.writeFile("./data/users.json", `${JSON.stringify(newList)}`, () => {
-
             });
-
             return res.send("Cadastro feito com sucesso.");
         })
         .catch(erro => res.status(500).json({ message: erro.message }))
@@ -116,7 +123,7 @@ app.post("/cart", async (req, res) => {
     }]
 
     readTheFile("./data/cart.json")
-        .then(result => result.concat(data_USER))
+        .then(result =>  result.concat(data_USER) )
         .then(result => {
             fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
             });
