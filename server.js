@@ -30,9 +30,8 @@ function readTheFile(_filePath) {
 
 app.post("/login", async (req, res) => {
     const { userLogin } = req.body;
+    let user;
 
-    console.log("------------RECEBIDO---------------")
-    console.log(userLogin);
     let data_USER = {
         user: 0,
         cart: [],
@@ -52,39 +51,40 @@ app.post("/login", async (req, res) => {
 
             data_USER.user = user[0].id;
 
-            console.log("----------FIND USER------------")
-            console.log(data_USER);
-
-          
             return result
         })
-        .catch(res => res.send(null));
+        .catch(res => res.send(erro));
 
     const CART = await readTheFile("./data/cart.json")
-        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)));
+        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)))
+        .catch(res => []);
 
     const WISHLIST = await readTheFile("./data/wishlist.json")
-        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)));
+        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)))
+        .catch(res => []);
 
     const HISTORY = await readTheFile("./data/history.json")
-        .then(result => result.filter((element) => element.delete === false && (element.id === user[0].id)));
+        .then(result => result.filter((element) => (element.id === user[0].id)))
+        .catch(res => []);
+
+    const HISTORY_FILTER = HISTORY.filter(element => element.delete === false)
+
 
     data_USER = {
         ...data_USER,
         cart: CART,
         wishlist: WISHLIST,
-        history: HISTORY
+        history: HISTORY_FILTER
     }
-
-    console.log("------------ENVIADO---------------")
-    console.log(data_USER)
 
     res.send(data_USER)
 });
 
-// ------------------------------------ REGISTER - USER ------------------------------------
+// ------------------------------------ SIGNUP - REGISTER - USER ------------------------------------
 app.post("/login/signup", async (req, res) => {
     const { userSignUp } = req.body;
+    console.log("CADASTRO");
+
     userSignUp.delete = false;
 
     let user;
@@ -103,10 +103,19 @@ app.post("/login/signup", async (req, res) => {
             let data = result;
             userSignUp.id = data.length;
             let newList = data.concat(userSignUp);
+            console.log(userSignUp)
 
             fs.writeFile("./data/users.json", `${JSON.stringify(newList)}`, () => {
             });
-            return res.send("Cadastro feito com sucesso.");
+
+            let data_USER = {
+                id: userSignUp.id,
+                cart: [],
+                wishlist: [],
+                history: []
+            }
+            console.log(data_USER)
+            return res.send(data_USER);
         })
         .catch(erro => res.status(500).json({ message: erro.message }))
 });
@@ -123,7 +132,7 @@ app.post("/cart", async (req, res) => {
     }]
 
     readTheFile("./data/cart.json")
-        .then(result =>  result.concat(data_USER) )
+        .then(result => result.concat(data_USER))
         .then(result => {
             fs.writeFile("./data/cart.json", `${JSON.stringify(result)}`, () => {
             });
@@ -226,7 +235,8 @@ app.post("/history", async (req, res) => {
         .then(result => {
             fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {
             });
-            return res.send("history atualizada");
+
+            return res.send(result);
         })
         .catch(erro => res.status(500).json({ message: erro.message }))
 });
@@ -244,10 +254,10 @@ app.post("/history/remove", async (req, res) => {
 
     readTheFile("./data/history.json")
         .then(result => {
-            const data = result.filter((element) => {
-                return element.id !== data_USER.id
-            })
-            return data.concat(data_USER)
+            const data = result.filter((element) => element.id !== data_USER.id);
+            const data_FILTER = data.concat(data_USER);
+
+            return data_FILTER
         })
         .then(result => {
             fs.writeFile("./data/history.json", `${JSON.stringify(result)}`, () => {

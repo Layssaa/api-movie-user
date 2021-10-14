@@ -1,18 +1,6 @@
 [
     {
         "data": [
-            {}
-        ],
-        "delete": true
-    },
-    {
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
-        "data": [
             {},
             {
                 "adult": false,
@@ -285,253 +273,6 @@
                 "video": false,
                 "vote_average": 7.9,
                 "vote_count": 328
-            }
-        ],
-        "delete": false
-    },
-    {
-        "id": 250,
-        "data": [
-            {}
-        ],
-        "delete": true
-    },
-    {
-        "id": {
-            "email": "",
-            "password": ""
-        },
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
-        "id": {
-            "email": "",
-            "password": ""
-        },
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
-        "id": 250,
-        "data": [
-            {
-                "adult": false,
-                "backdrop_path": "/MDYanFolbT76dj0gsCbhS2GM5A.jpg",
-                "genre_ids": [
-                    37,
-                    28
-                ],
-                "id": 859860,
-                "original_language": "en",
-                "original_title": "Catch the Bullet",
-                "overview": "U.S. marshal Britt MacMasters returns from a mission to find his father wounded and his son kidnapped by the outlaw Jed Blake. Hot on their trail, Britt forms a posse with a gunslinging deputy and a stoic Pawnee tracker. But Jed and Britt tread dangerously close to the Red Desert’s Sioux territory.",
-                "popularity": 1331.356,
-                "poster_path": "/qKxrBZ8Ts4KHZKp7BT6GAVMLFO2.jpg",
-                "release_date": "2021-09-10",
-                "title": "Catch the Bullet",
-                "video": false,
-                "vote_average": 5.5,
-                "vote_count": 32
-            }
-        ],
-        "delete": false
-    },
-    {
-        "id": 250,
-        "data": [
-            {
-                "adult": false,
-                "backdrop_path": "/MDYanFolbT76dj0gsCbhS2GM5A.jpg",
-                "genre_ids": [
-                    37,
-                    28
-                ],
-                "id": 859860,
-                "original_language": "en",
-                "original_title": "Catch the Bullet",
-                "overview": "U.S. marshal Britt MacMasters returns from a mission to find his father wounded and his son kidnapped by the outlaw Jed Blake. Hot on their trail, Britt forms a posse with a gunslinging deputy and a stoic Pawnee tracker. But Jed and Britt tread dangerously close to the Red Desert’s Sioux territory.",
-                "popularity": 1331.356,
-                "poster_path": "/qKxrBZ8Ts4KHZKp7BT6GAVMLFO2.jpg",
-                "release_date": "2021-09-10",
-                "title": "Catch the Bullet",
-                "video": false,
-                "vote_average": 5.5,
-                "vote_count": 32
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    14,
-                    35
-                ],
-                "id": 436969,
-                "original_language": "en",
-                "original_title": "The Suicide Squad",
-                "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-                "popularity": 1259.968,
-                "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
-                "release_date": "2021-07-28",
-                "title": "The Suicide Squad",
-                "video": false,
-                "vote_average": 7.8,
-                "vote_count": 4152
-            }
-        ],
-        "delete": false
-    },
-    {
-        "id": 250,
-        "data": [
-            {
-                "adult": false,
-                "backdrop_path": "/MDYanFolbT76dj0gsCbhS2GM5A.jpg",
-                "genre_ids": [
-                    37,
-                    28
-                ],
-                "id": 859860,
-                "original_language": "en",
-                "original_title": "Catch the Bullet",
-                "overview": "U.S. marshal Britt MacMasters returns from a mission to find his father wounded and his son kidnapped by the outlaw Jed Blake. Hot on their trail, Britt forms a posse with a gunslinging deputy and a stoic Pawnee tracker. But Jed and Britt tread dangerously close to the Red Desert’s Sioux territory.",
-                "popularity": 1331.356,
-                "poster_path": "/qKxrBZ8Ts4KHZKp7BT6GAVMLFO2.jpg",
-                "release_date": "2021-09-10",
-                "title": "Catch the Bullet",
-                "video": false,
-                "vote_average": 5.5,
-                "vote_count": 32
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    14,
-                    35
-                ],
-                "id": 436969,
-                "original_language": "en",
-                "original_title": "The Suicide Squad",
-                "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-                "popularity": 1259.968,
-                "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
-                "release_date": "2021-07-28",
-                "title": "The Suicide Squad",
-                "video": false,
-                "vote_average": 7.8,
-                "vote_count": 4152
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/byflnwPMumyvrCW9SfO5Miq3647.jpg",
-                "genre_ids": [
-                    28,
-                    53
-                ],
-                "id": 597891,
-                "original_language": "en",
-                "original_title": "Kate",
-                "overview": "After she's irreversibly poisoned, a ruthless criminal operative has less than 24 hours to exact revenge on her enemies and in the process forms an unexpected bond with the daughter of one of her past victims.",
-                "popularity": 1163.255,
-                "poster_path": "/uJgdT1boTSP0dDIjdTgGleg71l4.jpg",
-                "release_date": "2021-09-10",
-                "title": "Kate",
-                "video": false,
-                "vote_average": 6.8,
-                "vote_count": 532
-            }
-        ],
-        "delete": false
-    },
-    {
-        "id": 250,
-        "data": [
-            {
-                "adult": false,
-                "backdrop_path": "/MDYanFolbT76dj0gsCbhS2GM5A.jpg",
-                "genre_ids": [
-                    37,
-                    28
-                ],
-                "id": 859860,
-                "original_language": "en",
-                "original_title": "Catch the Bullet",
-                "overview": "U.S. marshal Britt MacMasters returns from a mission to find his father wounded and his son kidnapped by the outlaw Jed Blake. Hot on their trail, Britt forms a posse with a gunslinging deputy and a stoic Pawnee tracker. But Jed and Britt tread dangerously close to the Red Desert’s Sioux territory.",
-                "popularity": 1331.356,
-                "poster_path": "/qKxrBZ8Ts4KHZKp7BT6GAVMLFO2.jpg",
-                "release_date": "2021-09-10",
-                "title": "Catch the Bullet",
-                "video": false,
-                "vote_average": 5.5,
-                "vote_count": 32
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    14,
-                    35
-                ],
-                "id": 436969,
-                "original_language": "en",
-                "original_title": "The Suicide Squad",
-                "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-                "popularity": 1259.968,
-                "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
-                "release_date": "2021-07-28",
-                "title": "The Suicide Squad",
-                "video": false,
-                "vote_average": 7.8,
-                "vote_count": 4152
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/byflnwPMumyvrCW9SfO5Miq3647.jpg",
-                "genre_ids": [
-                    28,
-                    53
-                ],
-                "id": 597891,
-                "original_language": "en",
-                "original_title": "Kate",
-                "overview": "After she's irreversibly poisoned, a ruthless criminal operative has less than 24 hours to exact revenge on her enemies and in the process forms an unexpected bond with the daughter of one of her past victims.",
-                "popularity": 1163.255,
-                "poster_path": "/uJgdT1boTSP0dDIjdTgGleg71l4.jpg",
-                "release_date": "2021-09-10",
-                "title": "Kate",
-                "video": false,
-                "vote_average": 6.8,
-                "vote_count": 532
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/qD45xHA35HdJDGOaA1AgDwiWEgO.jpg",
-                "genre_ids": [
-                    10749,
-                    18
-                ],
-                "id": 744275,
-                "original_language": "en",
-                "original_title": "After We Fell",
-                "overview": "Just as Tessa's life begins to become unglued, nothing is what she thought it would be. Not her friends nor her family. The only person that she should be able to rely on is Hardin, who is furious when he discovers the massive secret that she's been keeping. Before Tessa makes the biggest decision of her life, everything changes because of revelations about her family.",
-                "popularity": 759.167,
-                "poster_path": "/oOZITZodAja6optBgLh8ZZrgzbb.jpg",
-                "release_date": "2021-09-01",
-                "title": "After We Fell",
-                "video": false,
-                "vote_average": 8.2,
-                "vote_count": 270
             }
         ],
         "delete": false
@@ -579,5 +320,918 @@
             }
         ],
         "delete": true
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 12439.174,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 8,
+                "vote_count": 1852
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+                "genre_ids": [
+                    28,
+                    12
+                ],
+                "id": 568620,
+                "original_language": "en",
+                "original_title": "Snake Eyes: G.I. Joe Origins",
+                "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+                "popularity": 7120.237,
+                "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+                "release_date": "2021-07-22",
+                "title": "Snake Eyes: G.I. Joe Origins",
+                "video": false,
+                "vote_average": 7,
+                "vote_count": 549
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 3554.027,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.4,
+                "vote_count": 110
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+                "genre_ids": [
+                    28,
+                    12,
+                    14
+                ],
+                "id": 566525,
+                "original_language": "en",
+                "original_title": "Shang-Chi and the Legend of the Ten Rings",
+                "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+                "popularity": 1862.497,
+                "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
+                "release_date": "2021-09-01",
+                "title": "Shang-Chi and the Legend of the Ten Rings",
+                "video": false,
+                "vote_average": 7.8,
+                "vote_count": 1144
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/3GgkzCDq6KYpcmJmcOKh27hYRyj.jpg",
+                "genre_ids": [
+                    12,
+                    16,
+                    10751,
+                    14
+                ],
+                "id": 588921,
+                "original_language": "en",
+                "original_title": "Ainbo: Spirit of the Amazon",
+                "overview": "",
+                "popularity": 1405.635,
+                "poster_path": "/l8HyObVj8fPrzacAPtGWWLDhcfh.jpg",
+                "release_date": "2021-02-09",
+                "title": "Ainbo: Spirit of the Amazon",
+                "video": false,
+                "vote_average": 7.3,
+                "vote_count": 183
+            }
+        ],
+        "delete": true
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+                "genre_ids": [
+                    28,
+                    12
+                ],
+                "id": 568620,
+                "original_language": "en",
+                "original_title": "Snake Eyes: G.I. Joe Origins",
+                "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+                "popularity": 3146.571,
+                "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+                "release_date": "2021-07-22",
+                "title": "Snake Eyes: G.I. Joe Origins",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 626
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+                "genre_ids": [
+                    28,
+                    12
+                ],
+                "id": 568620,
+                "original_language": "en",
+                "original_title": "Snake Eyes: G.I. Joe Origins",
+                "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+                "popularity": 3146.571,
+                "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+                "release_date": "2021-07-22",
+                "title": "Snake Eyes: G.I. Joe Origins",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 626
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+                "genre_ids": [
+                    16,
+                    35,
+                    12,
+                    10751
+                ],
+                "id": 459151,
+                "original_language": "en",
+                "original_title": "The Boss Baby: Family Business",
+                "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+                "popularity": 944.959,
+                "poster_path": "/uWStkK8bq9ixY3fc7y209ZleCoF.jpg",
+                "release_date": "2021-07-01",
+                "title": "The Boss Baby: Family Business",
+                "video": false,
+                "vote_average": 7.7,
+                "vote_count": 1495
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+                "genre_ids": [
+                    28,
+                    12
+                ],
+                "id": 568620,
+                "original_language": "en",
+                "original_title": "Snake Eyes: G.I. Joe Origins",
+                "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+                "popularity": 3146.571,
+                "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+                "release_date": "2021-07-22",
+                "title": "Snake Eyes: G.I. Joe Origins",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 626
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+                "genre_ids": [
+                    16,
+                    35,
+                    12,
+                    10751
+                ],
+                "id": 459151,
+                "original_language": "en",
+                "original_title": "The Boss Baby: Family Business",
+                "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+                "popularity": 944.959,
+                "poster_path": "/uWStkK8bq9ixY3fc7y209ZleCoF.jpg",
+                "release_date": "2021-07-01",
+                "title": "The Boss Baby: Family Business",
+                "video": false,
+                "vote_average": 7.7,
+                "vote_count": 1495
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+                "genre_ids": [
+                    28,
+                    12
+                ],
+                "id": 568620,
+                "original_language": "en",
+                "original_title": "Snake Eyes: G.I. Joe Origins",
+                "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+                "popularity": 3146.571,
+                "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+                "release_date": "2021-07-22",
+                "title": "Snake Eyes: G.I. Joe Origins",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 626
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/hrzoy8vvUrxQixOM11pwW9AX7Bu.jpg",
+                "genre_ids": [
+                    80,
+                    18
+                ],
+                "id": 524369,
+                "original_language": "en",
+                "original_title": "The Many Saints of Newark",
+                "overview": "Young Anthony Soprano is growing up in one of the most tumultuous eras in Newark, N.J., history, becoming a man just as rival gangsters start to rise up and challenge the all-powerful DiMeo crime family. Caught up in the changing times is the uncle he idolizes, Dickie Moltisanti, whose influence over his nephew will help shape the impressionable teenager into the all-powerful mob boss, Tony Soprano.",
+                "popularity": 1901.851,
+                "poster_path": "/1UkbPQspPbq1FPbFP4VV1ELCfSN.jpg",
+                "release_date": "2021-09-22",
+                "title": "The Many Saints of Newark",
+                "video": false,
+                "vote_average": 6.7,
+                "vote_count": 100
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": {
+            "data": "Cadastro feito com sucesso.",
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+                "content-length": "27",
+                "content-type": "text/html; charset=utf-8"
+            },
+            "config": {
+                "url": "/login/signup",
+                "method": "post",
+                "data": "{\"userSignUp\":{\"name\":\"Lina\",\"email\":\"lina@lina\",\"password\":\"123654\",\"repeatpassword\":\"123654\"}}",
+                "headers": {
+                    "Accept": "application/json, text/plain, */*",
+                    "Content-Type": "application/json"
+                },
+                "baseURL": "http://localhost:8000",
+                "transformRequest": [
+                    null
+                ],
+                "transformResponse": [
+                    null
+                ],
+                "timeout": 0,
+                "xsrfCookieName": "XSRF-TOKEN",
+                "xsrfHeaderName": "X-XSRF-TOKEN",
+                "maxContentLength": -1,
+                "maxBodyLength": -1,
+                "transitional": {
+                    "silentJSONParsing": true,
+                    "forcedJSONParsing": true,
+                    "clarifyTimeoutError": false
+                }
+            },
+            "request": {}
+        },
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 14,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/hrzoy8vvUrxQixOM11pwW9AX7Bu.jpg",
+                "genre_ids": [
+                    80,
+                    18
+                ],
+                "id": 524369,
+                "original_language": "en",
+                "original_title": "The Many Saints of Newark",
+                "overview": "Young Anthony Soprano is growing up in one of the most tumultuous eras in Newark, N.J., history, becoming a man just as rival gangsters start to rise up and challenge the all-powerful DiMeo crime family. Caught up in the changing times is the uncle he idolizes, Dickie Moltisanti, whose influence over his nephew will help shape the impressionable teenager into the all-powerful mob boss, Tony Soprano.",
+                "popularity": 1901.851,
+                "poster_path": "/1UkbPQspPbq1FPbFP4VV1ELCfSN.jpg",
+                "release_date": "2021-09-22",
+                "title": "The Many Saints of Newark",
+                "video": false,
+                "vote_average": 6.7,
+                "vote_count": 100
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": {
+            "data": {
+                "id": 15,
+                "cart": [],
+                "wishlist": [],
+                "history": []
+            },
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+                "content-length": "46",
+                "content-type": "application/json; charset=utf-8"
+            },
+            "config": {
+                "url": "/login/signup",
+                "method": "post",
+                "data": "{\"userSignUp\":{\"name\":\"amarelo\",\"email\":\"amarelo@amarelo\",\"password\":\"123654\",\"repeatpassword\":\"123654\"}}",
+                "headers": {
+                    "Accept": "application/json, text/plain, */*",
+                    "Content-Type": "application/json"
+                },
+                "baseURL": "http://localhost:8000",
+                "transformRequest": [
+                    null
+                ],
+                "transformResponse": [
+                    null
+                ],
+                "timeout": 0,
+                "xsrfCookieName": "XSRF-TOKEN",
+                "xsrfHeaderName": "X-XSRF-TOKEN",
+                "maxContentLength": -1,
+                "maxBodyLength": -1,
+                "transitional": {
+                    "silentJSONParsing": true,
+                    "forcedJSONParsing": true,
+                    "clarifyTimeoutError": false
+                }
+            },
+            "request": {}
+        },
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 15,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            }
+        ],
+        "delete": false
+    },
+    {
+        "id": 15,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+                "genre_ids": [
+                    28,
+                    12
+                ],
+                "id": 568620,
+                "original_language": "en",
+                "original_title": "Snake Eyes: G.I. Joe Origins",
+                "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+                "popularity": 3146.571,
+                "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+                "release_date": "2021-07-22",
+                "title": "Snake Eyes: G.I. Joe Origins",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 626
+            }
+        ],
+        "delete": false
     }
 ]

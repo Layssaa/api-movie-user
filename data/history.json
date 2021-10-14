@@ -1,343 +1,5 @@
 [
     {
-        "adult": false,
-        "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
-        "genre_ids": [
-            28,
-            12
-        ],
-        "original_language": "en",
-        "original_title": "Snake Eyes: G.I. Joe Origins",
-        "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-        "popularity": 2958.528,
-        "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
-        "release_date": "2021-07-22",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 497
-    },
-    {
-        "id": "253"
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
-        "genre_ids": [
-            28,
-            12
-        ],
-        "id": 568620,
-        "original_language": "en",
-        "original_title": "Snake Eyes: G.I. Joe Origins",
-        "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-        "popularity": 2958.528,
-        "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
-        "release_date": "2021-07-22",
-        "title": "Snake Eyes: G.I. Joe Origins",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 497
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
-        "genre_ids": [
-            28,
-            12
-        ],
-        "id": 568620,
-        "original_language": "en",
-        "original_title": "Snake Eyes: G.I. Joe Origins",
-        "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-        "popularity": 2958.528,
-        "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
-        "release_date": "2021-07-22",
-        "title": "Snake Eyes: G.I. Joe Origins",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 497
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/vkIJ2QgcKMJRvi6pBW4Tr2kgLdy.jpg",
-        "genre_ids": [
-            80,
-            53
-        ],
-        "id": 637534,
-        "original_language": "fr",
-        "original_title": "BAC Nord",
-        "overview": "A police brigade working in the dangerous northern neighborhoods of Marseille, where the level of crime is higher than anywhere else in France.",
-        "popularity": 2869.826,
-        "poster_path": "/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg",
-        "release_date": "2021-08-18",
-        "title": "The Stronghold",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 317
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
-        "genre_ids": [
-            28,
-            12
-        ],
-        "id": 568620,
-        "original_language": "en",
-        "original_title": "Snake Eyes: G.I. Joe Origins",
-        "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-        "popularity": 2958.528,
-        "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
-        "release_date": "2021-07-22",
-        "title": "Snake Eyes: G.I. Joe Origins",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 497
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
-        "genre_ids": [
-            28,
-            12
-        ],
-        "id": 568620,
-        "original_language": "en",
-        "original_title": "Snake Eyes: G.I. Joe Origins",
-        "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-        "popularity": 2958.528,
-        "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
-        "release_date": "2021-07-22",
-        "title": "Snake Eyes: G.I. Joe Origins",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 497
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/vkIJ2QgcKMJRvi6pBW4Tr2kgLdy.jpg",
-        "genre_ids": [
-            80,
-            53
-        ],
-        "id": 637534,
-        "original_language": "fr",
-        "original_title": "BAC Nord",
-        "overview": "A police brigade working in the dangerous northern neighborhoods of Marseille, where the level of crime is higher than anywhere else in France.",
-        "popularity": 2869.826,
-        "poster_path": "/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg",
-        "release_date": "2021-08-18",
-        "title": "The Stronghold",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 317
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/vkIJ2QgcKMJRvi6pBW4Tr2kgLdy.jpg",
-        "genre_ids": [
-            80,
-            53
-        ],
-        "id": 637534,
-        "original_language": "fr",
-        "original_title": "BAC Nord",
-        "overview": "A police brigade working in the dangerous northern neighborhoods of Marseille, where the level of crime is higher than anywhere else in France.",
-        "popularity": 2869.826,
-        "poster_path": "/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg",
-        "release_date": "2021-08-18",
-        "title": "The Stronghold",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 317
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
-        "genre_ids": [
-            35,
-            28,
-            12,
-            878
-        ],
-        "id": 550988,
-        "original_language": "en",
-        "original_title": "Free Guy",
-        "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
-        "popularity": 5418.816,
-        "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
-        "release_date": "2021-08-11",
-        "title": "Free Guy",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 1312
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
-        "genre_ids": [
-            35,
-            28,
-            12,
-            878
-        ],
-        "id": 550988,
-        "original_language": "en",
-        "original_title": "Free Guy",
-        "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
-        "popularity": 5418.816,
-        "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
-        "release_date": "2021-08-11",
-        "title": "Free Guy",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 1312
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
-        "genre_ids": [
-            28,
-            12,
-            14
-        ],
-        "id": 566525,
-        "original_language": "en",
-        "original_title": "Shang-Chi and the Legend of the Ten Rings",
-        "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-        "popularity": 1937.308,
-        "poster_path": "/xeItgLK9qcafxbd8kYgv7XnMEog.jpg",
-        "release_date": "2021-09-01",
-        "title": "Shang-Chi and the Legend of the Ten Rings",
-        "video": false,
-        "vote_average": 7.8,
-        "vote_count": 1092
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
-        "genre_ids": [
-            28,
-            12,
-            14
-        ],
-        "id": 566525,
-        "original_language": "en",
-        "original_title": "Shang-Chi and the Legend of the Ten Rings",
-        "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-        "popularity": 1937.308,
-        "poster_path": "/xeItgLK9qcafxbd8kYgv7XnMEog.jpg",
-        "release_date": "2021-09-01",
-        "title": "Shang-Chi and the Legend of the Ten Rings",
-        "video": false,
-        "vote_average": 7.8,
-        "vote_count": 1092
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
-        "genre_ids": [
-            35,
-            28,
-            12,
-            878
-        ],
-        "id": 550988,
-        "original_language": "en",
-        "original_title": "Free Guy",
-        "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
-        "popularity": 5418.816,
-        "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
-        "release_date": "2021-08-11",
-        "title": "Free Guy",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 1312
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
-        "genre_ids": [
-            35,
-            28,
-            12,
-            878
-        ],
-        "id": 550988,
-        "original_language": "en",
-        "original_title": "Free Guy",
-        "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
-        "popularity": 5418.816,
-        "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
-        "release_date": "2021-08-11",
-        "title": "Free Guy",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 1312
-    },
-    {
-        "adult": false,
-        "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
-        "genre_ids": [
-            28,
-            12
-        ],
-        "id": 568620,
-        "original_language": "en",
-        "original_title": "Snake Eyes: G.I. Joe Origins",
-        "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-        "popularity": 2958.528,
-        "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
-        "release_date": "2021-07-22",
-        "title": "Snake Eyes: G.I. Joe Origins",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 497
-    },
-    {
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
-        "id": {
-            "email": "",
-            "password": ""
-        },
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
-        "id": {
-            "email": "",
-            "password": ""
-        },
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
-        "id": {
-            "email": "",
-            "password": ""
-        },
-        "data": [
-            {}
-        ],
-        "delete": false
-    },
-    {
         "id": 5,
         "data": [
             {
@@ -363,10 +25,7 @@
         "delete": true
     },
     {
-        "id": {
-            "email": "",
-            "password": ""
-        },
+        "id": 5,
         "data": [
             {
                 "adult": false,
@@ -416,6 +75,109 @@
         "data": [
             {
                 "adult": false,
+                "backdrop_path": "/iTgM25ftE7YtFgZwUZupVp8A61S.jpg",
+                "genre_ids": [
+                    27,
+                    9648,
+                    53
+                ],
+                "id": 631843,
+                "original_language": "en",
+                "original_title": "Old",
+                "overview": "A group of families on a tropical holiday discover that the secluded beach where they are staying is somehow causing them to age rapidly – reducing their entire lives into a single day.",
+                "popularity": 1492.621,
+                "poster_path": "/vclShucpUmPhdAOmKgf3B3Z4POD.jpg",
+                "release_date": "2021-07-21",
+                "title": "Old",
+                "video": false,
+                "vote_average": 6.7,
+                "vote_count": 1069
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+                "genre_ids": [
+                    28,
+                    12,
+                    14
+                ],
+                "id": 566525,
+                "original_language": "en",
+                "original_title": "Shang-Chi and the Legend of the Ten Rings",
+                "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+                "popularity": 1771.916,
+                "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
+                "release_date": "2021-09-01",
+                "title": "Shang-Chi and the Legend of the Ten Rings",
+                "video": false,
+                "vote_average": 7.8,
+                "vote_count": 1171
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/MDYanFolbT76dj0gsCbhS2GM5A.jpg",
+                "genre_ids": [
+                    37,
+                    28
+                ],
+                "id": 859860,
+                "original_language": "en",
+                "original_title": "Catch the Bullet",
+                "overview": "U.S. marshal Britt MacMasters returns from a mission to find his father wounded and his son kidnapped by the outlaw Jed Blake. Hot on their trail, Britt forms a posse with a gunslinging deputy and a stoic Pawnee tracker. But Jed and Britt tread dangerously close to the Red Desert’s Sioux territory.",
+                "popularity": 1358.659,
+                "poster_path": "/qKxrBZ8Ts4KHZKp7BT6GAVMLFO2.jpg",
+                "release_date": "2021-09-10",
+                "title": "Catch the Bullet",
+                "video": false,
+                "vote_average": 5.7,
+                "vote_count": 46
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/pUc51UUQb1lMLVVkDCaZVsCo37U.jpg",
+                "genre_ids": [
+                    53,
+                    27
+                ],
+                "id": 482373,
+                "original_language": "en",
+                "original_title": "Don't Breathe 2",
+                "overview": "The Blind Man has been hiding out for several years in an isolated cabin and has taken in and raised a young girl orphaned from a devastating house fire. Their quiet life together is shattered when a group of criminals kidnap the girl, forcing the Blind Man to leave his safe haven to save her.",
+                "popularity": 1254.203,
+                "poster_path": "/hRMfgGFRAZIlvwVWy8DYJdLTpvN.jpg",
+                "release_date": "2021-08-12",
+                "title": "Don't Breathe 2",
+                "video": false,
+                "vote_average": 7.7,
+                "vote_count": 870
+            }
+        ],
+        "delete": true
+    },
+    {
+        "id": 250,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg",
+                "genre_ids": [
+                    878,
+                    28
+                ],
+                "id": 580489,
+                "original_language": "en",
+                "original_title": "Venom: Let There Be Carnage",
+                "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+                "popularity": 10722.316,
+                "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+                "release_date": "2021-09-30",
+                "title": "Venom: Let There Be Carnage",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 477
+            },
+            {
+                "adult": false,
                 "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
                 "genre_ids": [
                     35,
@@ -427,13 +189,13 @@
                 "original_language": "en",
                 "original_title": "Free Guy",
                 "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
-                "popularity": 10620.879,
+                "popularity": 5864.226,
                 "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
                 "release_date": "2021-08-11",
                 "title": "Free Guy",
                 "video": false,
-                "vote_average": 8,
-                "vote_count": 1586
+                "vote_average": 7.9,
+                "vote_count": 2562
             },
             {
                 "adult": false,
@@ -446,15 +208,82 @@
                 "original_language": "en",
                 "original_title": "Snake Eyes: G.I. Joe Origins",
                 "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-                "popularity": 5798.715,
+                "popularity": 3146.571,
                 "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
                 "release_date": "2021-07-22",
                 "title": "Snake Eyes: G.I. Joe Origins",
                 "video": false,
-                "vote_average": 7,
-                "vote_count": 512
+                "vote_average": 6.9,
+                "vote_count": 626
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+                "genre_ids": [
+                    16,
+                    35,
+                    12,
+                    10751
+                ],
+                "id": 459151,
+                "original_language": "en",
+                "original_title": "The Boss Baby: Family Business",
+                "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+                "popularity": 944.959,
+                "poster_path": "/uWStkK8bq9ixY3fc7y209ZleCoF.jpg",
+                "release_date": "2021-07-01",
+                "title": "The Boss Baby: Family Business",
+                "video": false,
+                "vote_average": 7.7,
+                "vote_count": 1495
             }
         ],
-        "delete": true
+        "delete": false
+    },
+    {
+        "id": 14,
+        "data": [
+            {
+                "adult": false,
+                "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+                "genre_ids": [
+                    35,
+                    28,
+                    12,
+                    878
+                ],
+                "id": 550988,
+                "original_language": "en",
+                "original_title": "Free Guy",
+                "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+                "popularity": 5864.226,
+                "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+                "release_date": "2021-08-11",
+                "title": "Free Guy",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 2562
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+                "genre_ids": [
+                    28,
+                    12
+                ],
+                "id": 568620,
+                "original_language": "en",
+                "original_title": "Snake Eyes: G.I. Joe Origins",
+                "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+                "popularity": 3146.571,
+                "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+                "release_date": "2021-07-22",
+                "title": "Snake Eyes: G.I. Joe Origins",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 626
+            }
+        ],
+        "delete": false
     }
 ]
